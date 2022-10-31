@@ -50,7 +50,7 @@ def receive():
     while True:
         # Accept Connection
         client, address = server.accept()
-        broadcast("Connected with {}".format(str(address)))
+        broadcast("Condddddnected with {}".format(str(address)))
 
         # Request And Store Nickname
         client.send('NICK'.encode('ascii'))
