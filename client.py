@@ -18,7 +18,7 @@ def get_ip():
 
 host = get_ip()
 port = 55551
-
+print(host)
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
